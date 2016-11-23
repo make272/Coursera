@@ -11,24 +11,36 @@ header > div {
 }
 
 .menu {
-	border:1px solid black;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	border:1px solid pink;
+	display: table;
 }
 
 .cousine {
-	box-sizing: border-box;
-	border:1px solid pink;
-	display: inline-block;
-	width: 32%;
+	border:2px solid black;
 	text-align: center;
 	background-color:darkgray;
+	margin-left:10px;
+	margin-right:0px;
+	box-sizing: border-box;
+	width: 32%;
+	float:left;
+
+
 }
 
 .name {
-	background-color: darkpink;
+	background-color: pink;
+	text-align: center;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	margin:0px;
+	width:40%;
+	float:right;
+	clear: both;
+	font-size: 1.25em;
 }
 
-footer {
-	border:1px solid black;
+.position {
+	clear:right;
+	font-size: 0.8em;
 }
