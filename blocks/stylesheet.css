@@ -1,134 +1,58 @@
-body {
-	margin:0px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-}
-header > div {
-	text-align: center;
-	border:1px solid black;
-	margin-top:40px;
-	margin-bottom:40px;
-	font-size: 200%;
-}
-
-.menu {
-	border:5px solid purple;
-	display: table;
-
-}
-
-
-
-.name {
-	background-color: pink;
-	text-align: center;
-	border-left:2px solid black;
-	border-bottom:2px solid black;
-	margin:0px;
-	width:40%;
-	float:right;
-	clear: both;
-	font-size: 1.40em;
-}
-
-.position {
-	clear:right;
-	font-size: 1em;
-}
-
-@media screen and (min-width: 992px) {
-	.cousine {
-	border:2px solid black;
-	text-align: center;
-	background-color:darkgray;
-	width: 32%;
-	display: inline-block;
-	margin-left:10px;
+* {
 	box-sizing: border-box;
-	}
-
-	body {
-		background-color: red;
-	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
 
-	.x1 {
-	border:2px solid black;
+.col-md-6, .col-md-12 {
+	float: left;
+	border: 1px solid black;
+	width: 33.33%;
+
+}
+
+
+h1 {
 	text-align: center;
-	background-color:darkgray;
-	margin-right:0px;
-	box-sizing: border-box;
-	width: 49.4%;
-	float:left;
-	margin-bottom: 10px;
+	margin-bottom: 45px;
+}
 
-	}
+p {
+	width: 95%;
+	border: 1px solid red;
+	margin-right: auto;
+	margin-left: auto;
+}
 
-	.x2 {
-	border:2px solid black;
-	text-align: center;
-	background-color:darkgray;
-	box-sizing: border-box;
-	width: 49.4%;
-	float: right;
-	margin-bottom: 10px;
-	}
+.inner {
+	background-color: darkgray;
+	width: 45%
+	border: 1px solid purple;
+	margin-right: auto;
+	margin-left: auto;
+	height: 300px;
+}
 
-	.x3 {
-	border:2px solid black;
-	text-align: center;
-	background-color:darkgray;;
-	margin-right:0px;
-	box-sizing: border-box;
+.row {
 	width: 100%;
-	clear: both;
-	margin: auto;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
 	}
 
-	.y1 {
-		width: 20%;
-	}
-
-	body {
-		background-color: orange;
+	.col-md-12 {
+		width:100%;
 	}
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
-	.x1 {
-	border:2px solid black;
-	text-align: center;
-	background-color:darkgray;
-	margin-right:0px;
-	box-sizing: border-box;
-	width: 100%;
-	margin-bottom: 25px;
+@media (max-width:767px) {
+	.col-md-6 {
+		width: 100%;
 	}
-
-	.x2 {
-	border:2px solid black;
-	text-align: center;
-	background-color:darkgray;
-	margin-right:0px;
-	box-sizing: border-box;
-	width: 100%;
-	margin-bottom: 25px;
-	}
-
-	.x3 {
-	border:2px solid black;
-	text-align: center;
-	background-color:darkgray;
-	margin-left:10px;
-	margin-right:0px;
-	box-sizing: border-box;
-	width: 100%;
-	clear: both;
-	margin: auto;
-	}
-
-	body {
-		background-color: lightblue;
+	.col-md-12 {
+		width:100%;
 	}
 }
