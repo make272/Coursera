@@ -10,6 +10,7 @@
 		<!-- -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/stylesheet.css">
+   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 		<!-- -->
 </head>
 
@@ -108,6 +109,13 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
+<script>
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+</script>
 		<!-- -->
 </body>
 
