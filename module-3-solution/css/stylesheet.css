@@ -14,7 +14,7 @@ h2 {
 
 
 .navbar {
-	background-color: darkgray;
+	background-color: #d9d9d9;
     border-radius: 0px;
     width: 100%;
     border-bottom: 2px solid black;
@@ -63,21 +63,32 @@ h2 {
 
 
 /* END HEADER */
-#tall-section {
+.tall-section {
 	text-align: center;
 }
 
 /*MAIN PAGE*/
-#main-content span {
+h3 {
+	font-size: 1.3em;
 	font-weight: bold;
-	text-align: center;
+	margin-top: 5px;
 }
 
-#background {
-	background-color: darkgray;
+.background {
+	border-radius: 4px;
+	background-color: #e4e2e2;
+	margin-top: 25px;
+}
+
+.foodname {
+	padding-top:1px;
 }
 
 @media (max-width: 767px) {
+
+	h2 {
+		margin-bottom: 20px;
+	}
 	div#my-navbar-collapse {
 	border-top:2px solid black;
 	}
@@ -85,7 +96,7 @@ h2 {
 	background-color: white;
 	}
 
-	#tall-section {
+	.tall-section {
 		padding-left:30px;
 		padding-right: 30px;
 	}
