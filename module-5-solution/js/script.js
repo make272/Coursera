@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
-    function (responseText) {
+    function (buildAndShowHomeHTML) {
     document.querySelector("#main-content")
       .innerHTML = responseText;
   }, // ***** <---- TODO: STEP 1: Substitute [...] ******
