@@ -1,0 +1,211 @@
+
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-default {
+	background-color: #fff;
+
+}
+
+#brand {
+	color: black;
+}
+
+
+#background-container0 {
+  background: url(../images/cover.jpg) no-repeat bottom center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+
+}
+
+
+#background-container1 {
+	background-color: #f8f8f8;
+}
+
+#background-container2 {
+	background-color: #fff;
+}
+
+
+#background-container3 {
+	background-color: #f8f8f8;
+}
+
+
+#main-content-home {
+	margin-top: 350px;
+	color: white;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+#main-content-home h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#main-content-services {
+	margin-top:0px;
+}
+h1 {
+	margin-top: 70px;
+	text-align: center;
+}
+
+body p {
+	font-size: 1.5em;
+	color: #666;
+}
+
+hr {
+	border-top: 1px solid #666;
+	width: 20%;
+}
+.phrase {
+	text-align: center;
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+.services-container {
+	margin-top: 70px;
+}
+
+.services {
+}
+
+.works {
+}
+
+.services-content {
+	border-radius: 3px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	margin-bottom: 40px;
+}
+
+.works-content {
+	border: 1px solid black;
+}
+
+.works-container {
+	padding-left:0px;
+	padding-right: 0px;
+	margin-top: 50px;
+}
+.works-container-row-2 {
+	padding-left:0px;
+	padding-right: 0px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+.glyphicon {
+    font-size: 3em;
+}
+
+.services-content span {
+	padding-top: 30px;
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+}
+
+.services-content h3 {
+	padding-top: 15px;
+	font-size: 1.1em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.services-content p {
+	padding-top: 25px;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+
+.skills-content {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	width: 260px;
+	height: 140px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.skills-content p {
+	padding-top: 20px;
+	font-weight: 400;
+}
+
+#username, #e-mail, #message{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.form-group {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#main-content-contacts p {
+	margin-bottom: 40px;
+}
+
+
+.input-group {
+	display: table-row;
+}
+/* MEDIA QUORES */
+
+
+@media (min-width: 1200px) {
+	.works-content {
+	width: 360px;
+	height: 225px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.works-content {
+	width: 293.33px;
+	height: 183.33px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.works-content {
+	width: 220px;
+	height: 137.5px;
+	}
+}
+
+@media (max-width: 767px) {
+	.works-content {
+		width: 220px;
+		height: 137.5px;
+		margin:0 auto;
+		margin-top: 20px;
+	}
+	.works-container-row-2 {
+		margin-top: 0px;
+	}
+
+	.skills-content {
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+}
